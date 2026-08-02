@@ -199,6 +199,8 @@ The application is deployed using **Vercel**.
 # 👨‍💻 Developed By
 
 **Stalin Arekallu**
+**Nikitha Odela**
+**M Krishna Kowshik**
 
 Idea2Impact Offline Hackathon 2026 Finale
 
