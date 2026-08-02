@@ -1,0 +1,1 @@
+ALTER TABLE public.queue_tokens ADD COLUMN IF NOT EXISTS is_priority BOOLEAN NOT NULL DEFAULT false;

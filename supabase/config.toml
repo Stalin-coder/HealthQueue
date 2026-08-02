@@ -1,0 +1,3 @@
+project_id = "vyntlvhzuxelkcgeqear"
+[functions.travel-coach]
+verify_jwt = true
