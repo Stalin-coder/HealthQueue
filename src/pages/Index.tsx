@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '@/integrations/supabase/client';
 import PatientLayout from '@/components/PatientLayout';
+import TriageAssistant from '@/components/queue/TriageAssistant';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -180,6 +181,9 @@ export default function Index() {
             </Link>
           </Button>
         </div>
+
+        {/* Triage Assistant */}
+        <TriageAssistant onSelectSpecialty={setSearch} />
 
         {/* Section Header */}
         <div className="flex items-center justify-between pt-2">
